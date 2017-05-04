@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>HTTP Basic Auth Demo</title>
+  <meta name="description" content="This demo shows how to use the Aerobatic HTTP Basic Auth plugin">
+  <meta name="author" content="Aerobatic">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href='//fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="/css/normalize--md5--4555077d49642ee7558d9e12bc9660e5.css">
+  <link rel="stylesheet" href="/css/skeleton--md5--cd542f65c9e43abc5ea195c9ddae1bb9.css">
+  <link rel="stylesheet" href="/css/custom--md5--ae8d3d49f02331367c6511fdd73e9590.css">
+
+  <!-- Scripts
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="/js/site--md5--68b64aba771df277b44e6f853a9ecff1.js"></script>
+
+<script>!function(){function e(e){var t=new XMLHttpRequest;t.open("GET",location.pathname,!1),t.setRequestHeader("Accept","text/html"),t.setRequestHeader("Authorization","Basic "+btoa("__invalid__:__invalid")),t.setRequestHeader("X-Requested-With","XMLHttpRequest"),t.onreadystatechange=function(){0!==t.readyState&&4!==t.readyState||location.assign(e)},t.send()}document.addEventListener("DOMContentLoaded",function(){var t=document.querySelector("[data-basic-auth-logout]");t&&t.addEventListener("click",function(t){var a=t.target.getAttribute("href");e(a),t.preventDefault()})})}();</script></head>
+<body class="code-snippets-visible">
+
+  <div class="navbar-spacer"></div>
+    <nav class="navbar">
+      <div class="container">
+        <a href="http://www.aerobatic.com"><img src="/images/aerobatic_logo--md5--52e63d922f74bb77a3dc360eb502e1c9.png"></a>
+      </div>
+    </nav>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+    <section class="header">
+      <h1 class="title">Auth Success</h1>
+    </section>
+
+    <!-- Example -->
+    <div class="docs-section examples" id="examples">
+      <h6 class="docs-header">Hi, we've been expecting you!</h6>
+      <div class="row example">
+		    <img src="/images/success--md5--b4b7608ac194a200d5ab12260fe28acc.gif">
+      </div>
+    </div>
+    <p>
+      <a class="button button-primary" href="/" role="button" data-basic-auth-logout>Logout</a>
+    </p>
+  </div>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>
